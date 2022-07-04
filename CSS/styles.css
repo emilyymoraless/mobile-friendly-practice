@@ -58,3 +58,21 @@ body {
   .content:nth-child(even) {
     text-align: end;
   }
+
+  @media screen and (min-width:480px) and (max-width:767px){
+    .cls-1 {
+        fill: red !important;
+    }
+  }
+
+  @media screen and (min-width:768px) and (max-width:1023px){
+    .cls-1 {
+        fill: yellow !important;
+    } 
+  }
+
+  @media screen and (min-width:1024px){
+    .cls-1 {
+        fill: pink !important;
+    } 
+  }
